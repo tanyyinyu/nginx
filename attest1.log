@@ -1,0 +1,44 @@
+ab test origin conf, ab -n10000 -c 50 http://localhost/, average is 30891
+ab test origin conf, ab -n10000 -c 50 http://localhost/, average is 30672
+ab test origin conf, ab -n10000 -c 50 http://localhost/, average is 30623
+ab test optimized conf, ab -n10000 -c 50 http://localhost/, average is 33145
+ab test optimized conf 4G ali yun computer, ab -n10000 -c 50 http://localhost/, average is 30079
+ab test optimized conf 4G ali yun computer, ab -n10000 -c 50 http://localhost/, average is 32874
+ab test optimized conf 4G ali yun computer, ab -n10000 -c 50 http://localhost/, average is 31275
+ab test optimized conf 4G ali yun computer, ab -n10000 -c 50 http://localhost/, average is 32228
+ab test optimized nginx conf, 4G ali yun computer, php page, default php config, ab -n10000 -c 50 http://www.test.com/, average is 9433
+ab test optimized nginx conf, 4G ali yun computer, php page, default php config, ab -n10000 -c 50 http://www.test.com/, average is 9059
+ab test optimized nginx conf, 4G ali yun computer, php page, default php config, ab -n10000 -c 50 http://www.test.com/, average is 8825
+ab test optimized nginx conf, 4G ali yun computer, php page, default php config, ab -n10000 -c 100 http://www.test.com/, average is 8694
+ab test optimized nginx conf, 4G ali yun computer, php page, default php config, ab -n10000 -c 100 http://www.test.com/, average is 9003
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 50 start 20 pm php config, ab -n10000 -c 100 http://www.test.com/, average is 8895
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 50 start 20 pm php config, ab -n10000 -c 100 http://www.test.com/, average is 8931
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 50 start 20 pm php config, ab -n10000 -c 100 http://www.test.com/, average is 8604
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config, ab -n10000 -c 100 http://www.test.com/, average is 8956
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config, ab -n10000 -c 100 http://www.test.com/, average is 8946
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config, ab -n10000 -c 50 http://www.test.com/, average is 9437
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config, ab -n10000 -c 50 http://www.test.com/, average is 9077
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://www.test.com/phpmysql.php/, average is 31502
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://www.test.com/phpmysql.php/, average is 33067
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config,not use mysql# mysql with new 4G config, ab -n10000 -c 50 http://www.test.com/index.php/, average is 32332
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config,not use mysql# mysql with new 4G config, ab -n10000 -c 50 http://www.test.com/index.php/, average is 32293
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config,not use mysql# mysql with new 4G config, ab -n10000 -c 50 http://www.test.com/index.php/, average is 32018
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config,not use mysql# mysql with new 4G config, ab -n10000 -c 50 http://www.test.com/index.php/, average is 31634
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config,not use mysql# mysql with new 4G config, ab -n10000 -c 50 http://www.test.com/index.php/, average is 31584
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://www.test.com/phpmysql.php/, average is 30763
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://www.test.com/phpmysql.php/, average is 31160
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://www.test.com/phpmysql.php/, average is 30850
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://www.test.com/phpmysql.php/, average is 32240
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://www.test.com/phpmysql.php/, average is 33159
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://www.test.com/phpmysql.php/, average is 32622
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://www.test.com/phpmysql.php/, average is 32723
+ab test optimized nginx conf, 4G ali yun computer, php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://www.test.com/phpmysql.php/, average is 32207
+ab test optimized nginx conf, 4G ali yun computer,###ignore   php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://localhost/, average is 32321
+ab test optimized nginx conf, 4G ali yun computer,###ignore   php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://localhost/, average is 32067
+ab test optimized nginx conf, 4G ali yun computer,###ignore   php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://localhost/, average is 31944
+ab test optimized nginx conf, 4G ali yun computer,###ignore   php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://localhost/, average is 32427
+ab test optimized nginx conf, 4G ali yun computer,###ignore   php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://localhost/, average is 32185
+ab test optimized nginx conf, 4G ali yun computer,###ignore   php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://localhost/, average is 31587
+ab test optimized nginx conf, 4G ali yun computer,###ignore   php page, dynamic 10 start 2 pm php config, mysql with new 4G config, ab -n10000 -c 50 http://localhost/, average is 29326
+ab test optimized nginx conf, 4G ali yun computer,php page, dynamic 10 start 2 pm php config, mysql with huge config, ab -n10000 -c 50 http://www.test.com/phpmysql/, average is 32296
+ab test optimized nginx conf, 4G ali yun computer,php page, dynamic 10 start 2 pm php config, mysql with huge config, ab -n10000 -c 50 http://www.test.com/phpmysql/, average is 32758
